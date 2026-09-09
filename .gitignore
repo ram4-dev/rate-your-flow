@@ -30,3 +30,7 @@ video/node_modules/
 video/out/
 video/build/
 video/dist/
+
+# Local verification receipts
+**/.apply-progress.md
+.DS_Store

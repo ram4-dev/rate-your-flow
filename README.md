@@ -1,5 +1,7 @@
 # Rate Your Flow
 
+[Website](https://rate-your-flow.vercel.app) · [27-second demo](https://github.com/ram4-dev/rate-your-flow/releases/download/v0.1.7/rate-your-flow-x.mp4)
+
 `ryf` reviews recent AI coding-agent sessions and turns them into a local HTML
 report. It reads Codex and Pi session files without modifying them.
 
