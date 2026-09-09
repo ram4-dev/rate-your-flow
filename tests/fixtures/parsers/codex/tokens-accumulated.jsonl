@@ -1,0 +1,6 @@
+{"timestamp":"2026-08-01T14:00:00Z","type":"session_meta","payload":{"id":"codex-sess-005","timestamp":"2026-08-01T14:00:00Z","cwd":"/tmp/demo","originator":"codex_cli"}}
+{"timestamp":"2026-08-01T14:00:01Z","type":"response_item","payload":{"type":"message","role":"user","content":[{"type":"input_text","text":"multi turn task"}]}}
+{"timestamp":"2026-08-01T14:00:02Z","type":"thread_token_usage","payload":{"input_tokens":1000,"output_tokens":500,"total_tokens":1500}}
+{"timestamp":"2026-08-01T14:00:03Z","type":"turn_token_usage","payload":{"input_tokens":100,"output_tokens":50,"total_tokens":150}}
+{"timestamp":"2026-08-01T14:00:04Z","type":"thread_token_usage","payload":{"input_tokens":1200,"output_tokens":560,"total_tokens":1760}}
+{"timestamp":"2026-08-01T14:00:05Z","type":"turn_token_usage","payload":{"input_tokens":200,"output_tokens":60,"total_tokens":260}}

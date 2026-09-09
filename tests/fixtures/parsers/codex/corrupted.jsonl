@@ -1,0 +1,5 @@
+{"timestamp":"2026-08-01T11:00:00Z","type":"session_meta","payload":{"id":"codex-sess-002","timestamp":"2026-08-01T11:00:00Z","cwd":"/tmp/demo","originator":"codex_cli"}}
+{not valid json at all
+{"timestamp":"2026-08-01T11:00:01Z","type":"response_item","payload":{"type":"message","role":"user",
+{"timestamp":"2026-08-01T11:00:02Z","type":"response_item","payload":{"type":"message","role":"user","content":[{"type":"input_text","text":"after corruption"}]}}
+{"timestamp":"2026-08-01T11:00:03Z","type":"response_item","payload":{"type":"message","role":"assistant","content":[{"type":"output_text","text":"still working after corruption"}]}}

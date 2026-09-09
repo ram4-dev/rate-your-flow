@@ -1,0 +1,44 @@
+{
+  "name": "rate-your-flow",
+  "version": "0.1.7",
+  "description": "Rate your AI coding flow: read-only local session analysis with an optional remote scoring pass.",
+  "license": "MIT",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ram4-dev/rate-your-flow.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ram4-dev/rate-your-flow/issues"
+  },
+  "homepage": "https://github.com/ram4-dev/rate-your-flow#readme",
+  "type": "module",
+  "engines": {
+    "node": ">=24.5"
+  },
+  "bin": {
+    "ryf": "dist/cli/bin.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "build": "tsc -p tsconfig.build.json",
+    "test:e2e": "vitest run tests/e2e"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^26.5.0",
+    "eslint": "^10.10.0",
+    "prettier": "^3.9.6",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.70.0",
+    "vitest": "^5.0.0"
+  },
+  "dependencies": {
+    "redis": "^6.2.1"
+  }
+}

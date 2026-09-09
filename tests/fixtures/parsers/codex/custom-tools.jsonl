@@ -1,0 +1,5 @@
+{"type":"session_meta","timestamp":"2026-06-04T10:00:00Z","payload":{"id":"sess-custom"}}
+{"type":"response_item","timestamp":"2026-06-04T10:01:00Z","payload":{"type":"custom_tool_call","call_id":"c-1","name":"browser.search","arguments":"{}"}}
+{"type":"response_item","timestamp":"2026-06-04T10:01:05Z","payload":{"type":"custom_tool_call_output","call_id":"c-1","output":"ok"}}
+{"type":"response_item","timestamp":"2026-06-04T10:02:00Z","payload":{"type":"custom_tool_call","call_id":"c-2","name":"browser.open","arguments":"{}"}}
+{"type":"response_item","timestamp":"2026-06-04T10:03:00Z","payload":{"type":"message","role":"developer","content":"dev note appended to current episode"}}

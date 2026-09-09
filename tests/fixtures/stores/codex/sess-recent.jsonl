@@ -1,0 +1,5 @@
+{"type":"session_meta","timestamp":"2026-09-01T10:00:00Z","payload":{"id":"sess-recent"}}
+{"type":"response_item","timestamp":"2026-09-01T10:00:10Z","payload":{"type":"message","role":"user","content":"build the report"}}
+{"type":"response_item","timestamp":"2026-09-01T10:01:00Z","payload":{"type":"function_call","call_id":"f1","name":"shell","arguments":"{}"}}
+{"type":"response_item","timestamp":"2026-09-01T10:01:05Z","payload":{"type":"function_call_output","call_id":"f1","output":"ok"}}
+{"type":"token_usage_record","timestamp":"2026-09-01T10:01:10Z","payload":{"usage":{"input_tokens":50,"output_tokens":20,"total_tokens":70},"thread_token_usage":{"total_tokens":70},"turn_token_usage":{"total_tokens":70}}}

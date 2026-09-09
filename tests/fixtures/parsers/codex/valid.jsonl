@@ -1,0 +1,10 @@
+{"timestamp":"2026-08-01T10:00:00Z","type":"session_meta","payload":{"id":"codex-sess-001","timestamp":"2026-08-01T10:00:00Z","cwd":"/tmp/demo","originator":"codex_cli"}}
+{"timestamp":"2026-08-01T10:00:01Z","type":"response_item","payload":{"type":"message","role":"user","content":[{"type":"input_text","text":"list the files in this directory"}]}}
+{"timestamp":"2026-08-01T10:00:02Z","type":"response_item","payload":{"type":"message","role":"assistant","content":[{"type":"output_text","text":"I will run ls for you."}]}}
+{"timestamp":"2026-08-01T10:00:03Z","type":"response_item","payload":{"type":"function_call","name":"shell","arguments":"{\"command\":[\"ls\",\"-la\"]}","call_id":"call_abc123"}}
+{"timestamp":"2026-08-01T10:00:04Z","type":"response_item","payload":{"type":"function_call_output","call_id":"call_abc123","output":"file-a.txt\nfile-b.txt"}}
+{"timestamp":"2026-08-01T10:00:05Z","type":"response_item","payload":{"type":"function_call_output","call_id":"call_abc123","output":"duplicate output for same call_id"}}
+{"timestamp":"2026-08-01T10:00:06Z","type":"response_item","payload":{"type":"function_call","name":"read_file","arguments":"{\"path\":\"file-a.txt\"}","call_id":"call_unmatched99"}}
+{"timestamp":"2026-08-01T10:00:07Z","type":"response_item","payload":{"type":"message","role":"assistant","content":[{"type":"output_text","text":"Two files found: file-a.txt and file-b.txt."}]}}
+{"timestamp":"2026-08-01T10:00:08Z","type":"event_msg","payload":{"type":"task_complete","message":"done"}}
+{"timestamp":"2026-08-01T10:00:09Z","type":"token_usage_record","payload":{"usage":{"input_tokens":120,"cached_input_tokens":0,"output_tokens":45,"reasoning_output_tokens":10,"total_tokens":165}}}

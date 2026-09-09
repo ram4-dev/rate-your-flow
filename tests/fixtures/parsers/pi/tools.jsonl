@@ -1,0 +1,8 @@
+{"type":"session","id":"sess-pi-006","timestamp":"2026-08-02T14:00:00Z","cwd":"/tmp/demo"}
+{"type":"message","id":"p1","parentId":null,"role":"user","timestamp":"2026-08-02T14:00:01Z","content":"watch the queue"}
+{"type":"message","id":"p2","parentId":"p1","role":"assistant","timestamp":"2026-08-02T14:00:02Z","content":"polling","stopReason":"toolUse","toolCallId":"tc-poll-1","toolName":"read_queue","isError":false}
+{"type":"message","id":"p3","parentId":"p2","role":"toolResult","timestamp":"2026-08-02T14:00:03Z","toolCallId":"tc-poll-1","content":"empty"}
+{"type":"message","id":"p4","parentId":"p3","role":"assistant","timestamp":"2026-08-02T14:00:04Z","content":"polling again","stopReason":"toolUse","toolCallId":"tc-poll-2","toolName":"read_queue","isError":false}
+{"type":"message","id":"p5","parentId":"p4","role":"toolResult","timestamp":"2026-08-02T14:00:05Z","toolCallId":"tc-poll-2","content":"empty again"}
+{"type":"message","id":"p6","parentId":"p5","role":"assistant","timestamp":"2026-08-02T14:00:06Z","content":"writing report","stopReason":"toolUse","toolCallId":"tc-fail-1","toolName":"write_report","isError":true}
+{"type":"message","id":"p7","parentId":"p6","role":"toolResult","timestamp":"2026-08-02T14:00:07Z","toolCallId":"tc-fail-1","content":"disk full"}

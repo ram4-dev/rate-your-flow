@@ -1,0 +1,3 @@
+{"type":"session","id":"sess-pi-004","timestamp":"2026-08-02T12:00:00Z","cwd":"/tmp/demo"}
+{"type":"message","id":"t1","parentId":null,"role":"user","timestamp":"2026-08-02T12:00:01Z","content":"complete request"}
+{"type":"message","id":"t2","parentId":"t1","role":"assistant","timestamp":"2026-08-02T12:0

@@ -1,0 +1,32 @@
+# Local Pi runtime state
+.atl/
+
+# Node / build
+node_modules/
+dist/
+.vitest/
+outputs/
+rate-your-flow-*.tgz
+.DS_Store
+
+# Local analysis data and credentials
+reports/
+.env
+.env.*
+!.env.example
+.vercel/
+
+# Internal workflow material
+.agent-workflow/
+.agents/
+AGENTS.md
+openspec/
+
+# Landing deployment and video renders
+landing/node_modules/
+landing/dist/
+landing/.vercel/
+video/node_modules/
+video/out/
+video/build/
+video/dist/

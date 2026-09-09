@@ -1,0 +1,3 @@
+{"type":"session","id":"sess-pi-005","timestamp":"2026-08-02T13:00:00Z","cwd":"/tmp/demo"}
+{"type":"message","id":"v1","parentId":null,"role":"user","timestamp":"2026-08-02T13:00:01Z","content":"long running task"}
+{"type":"message","id":"v2","parentId":"v1","role":"assistant","timestamp":"2026-08-02T13:00:02Z","content":"still in progress","stopReason":"toolUse","toolCallId":"tc-active","toolName":"bash","isError":false}

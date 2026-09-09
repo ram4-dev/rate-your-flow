@@ -1,0 +1,4 @@
+node_modules
+tests
+.apply-progress.md
+.DS_Store

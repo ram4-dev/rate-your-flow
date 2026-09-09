@@ -1,0 +1,36 @@
+{
+  "name": "rate-your-flow-launch-video",
+  "version": "0.1.0",
+  "description": "Rendered launch asset for Rate Your Flow",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ram4-dev/rate-your-flow.git"
+  },
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@remotion/cli": "4.0.523",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.523"
+  },
+  "devDependencies": {
+    "@remotion/eslint-config-flat": "4.0.523",
+    "@types/react": "19.2.7",
+    "@types/web": "0.0.166",
+    "eslint": "9.19.0",
+    "prettier": "3.8.1",
+    "typescript": "5.9.3"
+  },
+  "scripts": {
+    "dev": "remotion studio",
+    "build": "remotion bundle",
+    "render": "remotion render RateYourFlowX out/rate-your-flow-x.render.mp4 --codec=h264 --pixel-format=yuv420p && ffmpeg -y -i out/rate-your-flow-x.render.mp4 -c:v libx264 -pix_fmt yuv420p -color_range tv -movflags +faststart out/rate-your-flow-x.mp4 && rm out/rate-your-flow-x.render.mp4",
+    "poster": "remotion still RateYourFlowX out/rate-your-flow-x-poster.png --frame=705",
+    "upgrade": "remotion upgrade",
+    "lint": "eslint src && tsc"
+  },
+  "sideEffects": [
+    "*.css"
+  ]
+}

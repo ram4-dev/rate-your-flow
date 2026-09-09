@@ -1,0 +1,5 @@
+{"type":"session","id":"sess-pi-001","timestamp":"2026-08-02T09:00:00Z","cwd":"/tmp/demo"}
+{"type":"message","id":"m1","parentId":null,"role":"user","timestamp":"2026-08-02T09:00:01Z","content":"list the files in this directory"}
+{"type":"message","id":"m2","parentId":"m1","role":"assistant","timestamp":"2026-08-02T09:00:02Z","content":"running ls for you","stopReason":"toolUse","toolCallId":"tc1","toolName":"bash","isError":false}
+{"type":"model_change","id":"mc1","parentId":"m2","timestamp":"2026-08-02T09:00:03Z","model":"glm-5.3-flash"}
+{"type":"message","id":"m3","parentId":"mc1","role":"assistant","timestamp":"2026-08-02T09:00:04Z","content":"Two files found: file-a.txt and file-b.txt.","stopReason":"endTurn","usage":{"input":100,"output":20,"total":120}}

@@ -1,0 +1,4 @@
+{"type":"session","id":"sess-pi-007","timestamp":"2026-08-02T15:00:00Z","cwd":"/tmp/demo"}
+{"type":"message","id":"s1","parentId":null,"role":"user","timestamp":"2026-08-02T15:00:01Z","content":"shared start","usage":{"input":5,"output":0,"total":5}}
+{"type":"message","id":"sa","parentId":"s1","role":"assistant","timestamp":"2026-08-02T15:00:02Z","content":"branch A","usage":{"input":10,"output":1,"total":11}}
+{"type":"message","id":"sb","parentId":"s1","role":"assistant","timestamp":"2026-08-02T15:00:03Z","content":"branch B","usage":{"input":20,"output":2,"total":22}}

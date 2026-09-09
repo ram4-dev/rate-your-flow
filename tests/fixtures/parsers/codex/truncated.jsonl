@@ -1,0 +1,4 @@
+{"timestamp":"2026-08-01T12:00:00Z","type":"session_meta","payload":{"id":"codex-sess-003","timestamp":"2026-08-01T12:00:00Z","cwd":"/tmp/demo","originator":"codex_cli"}}
+{"timestamp":"2026-08-01T12:00:01Z","type":"response_item","payload":{"type":"message","role":"user","content":[{"type":"input_text","text":"complete request"}]}}
+{"timestamp":"2026-08-01T12:00:02Z","type":"response_item","payload":{"type":"message","role":"assistant","content":[{"type":"output_text","text":"working on it"}]}}
+{"timestamp":"2026-08-01T12:0

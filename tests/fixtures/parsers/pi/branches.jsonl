@@ -1,0 +1,4 @@
+{"type":"session","id":"sess-pi-002","timestamp":"2026-08-02T10:00:00Z","cwd":"/tmp/demo"}
+{"type":"message","id":"r1","parentId":null,"role":"user","timestamp":"2026-08-02T10:00:01Z","content":"choose a path"}
+{"type":"message","id":"a1","parentId":"r1","role":"assistant","timestamp":"2026-08-02T10:00:02Z","content":"branch A answer","stopReason":"endTurn","usage":{"input":10,"output":1,"total":11}}
+{"type":"message","id":"b1","parentId":"r1","role":"assistant","timestamp":"2026-08-02T10:00:03Z","content":"branch B answer","stopReason":"endTurn","usage":{"input":20,"output":2,"total":22}}

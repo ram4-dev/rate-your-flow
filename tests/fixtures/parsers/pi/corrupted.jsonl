@@ -1,0 +1,4 @@
+{"type":"session","id":"sess-pi-003","timestamp":"2026-08-02T11:00:00Z","cwd":"/tmp/demo"}
+{"type":"message","id":"c1","parentId":null,"role":"user","timestamp":"2026-08-02T11:00:01Z","content":"before corruption"}
+not valid json at all
+{"type":"message","id":"c2","parentId":"c1","role":"assistant","timestamp":"2026-08-02T11:00:02Z","content":"still working after corruption","stopReason":"endTurn"}

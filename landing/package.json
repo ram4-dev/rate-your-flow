@@ -1,0 +1,12 @@
+{
+  "name": "rate-your-flow-landing",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Static launch site for Rate Your Flow.",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "portless ryf-landing node server.mjs",
+    "start": "node server.mjs",
+    "test": "node --test tests/*.test.mjs"
+  }
+}

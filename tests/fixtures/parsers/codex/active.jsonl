@@ -1,0 +1,4 @@
+{"timestamp":"2026-08-01T13:00:00Z","type":"session_meta","payload":{"id":"codex-sess-004","timestamp":"2026-08-01T13:00:00Z","cwd":"/tmp/demo","originator":"codex_cli"}}
+{"timestamp":"2026-08-01T13:00:01Z","type":"response_item","payload":{"type":"message","role":"user","content":[{"type":"input_text","text":"long running task"}]}}
+{"timestamp":"2026-08-01T13:00:02Z","type":"response_item","payload":{"type":"message","role":"assistant","content":[{"type":"output_text","text":"still in progress"}]}}
+{"timestamp":"2026-08-01T13:00:03Z","type":"response_item","payload":{"type":"function_call","name":"shell","arguments":"{\"command\":[\"sleep\",\"30\"]}","call_id":"call_active1"}}

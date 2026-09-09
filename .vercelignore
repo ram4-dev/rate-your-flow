@@ -1,0 +1,16 @@
+node_modules/
+dist/
+reports/
+outputs/
+.agent-workflow/
+.agents/
+openspec/
+docs/
+video/
+tests/
+src/
+.env
+.env.*
+!.env.example
+AGENTS.md
+.git/

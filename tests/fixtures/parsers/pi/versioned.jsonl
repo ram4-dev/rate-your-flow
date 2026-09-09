@@ -1,0 +1,2 @@
+{"type":"session","id":"sess-pi-008","timestamp":"2026-08-02T16:00:00Z","cwd":"/tmp/demo","version":"v3"}
+{"type":"message","id":"w1","parentId":null,"role":"user","timestamp":"2026-08-02T16:00:01Z","content":"hello"}
