@@ -54,6 +54,8 @@ h1 em { color: var(--cobalt); font-style: normal; }
 .button-command.is-copied { background: #d9e5ff; }
 .copy-icon { color: var(--cobalt); font-family: var(--sans); }
 .copy-feedback { bottom: -25px; color: var(--cobalt); font-size: 12px; font-weight: 700; left: 2px; position: absolute; }
+.copy-fallback { background: var(--mist); color: var(--ink); font-size: 11px; left: 0; line-height: 1.45; max-width: 100%; overflow-wrap: anywhere; position: absolute; top: calc(100% + 30px); user-select: all; white-space: normal; }
+.hero-actions.has-copy-fallback { margin-bottom: 76px; }
 .microcopy { color: rgba(23, 40, 68, 0.63); font-size: 12px; margin-top: 32px; }
 .hero-visual { align-self: center; padding-top: 8px; }
 .visual-note { align-items: center; color: rgba(23, 40, 68, 0.62); display: flex; font-family: var(--mono); font-size: 10px; gap: 8px; justify-content: flex-end; letter-spacing: 0.05em; margin-bottom: 12px; text-transform: uppercase; }
